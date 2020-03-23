@@ -1,0 +1,78 @@
+* {box-sizing: border-box}
+body{
+  font-family: 'Nunito', sans-serif;
+  color:#000000
+}
+
+
+.sign-up {
+  padding: 16px;
+  max-width: 600px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  margin: 10px auto;
+
+}
+
+
+input[type=text], input[type="email"], input[type="address"], input[type="password"], input[type="date"], input[type="phone"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+input[type=text]:focus, input[type="password"]:focus,input[type="email"]:focus, input[type="address"]:focus, input[type="date"]:focus, input[type="phone"]:focus {
+  background-color: #ddd;
+  outline: none;
+  background-color: dodgerblue;
+}
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 15px;
+}
+
+
+.submitbtn {
+  background-color: #4CAF50;
+  color: black;
+  padding: 16px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.submitbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color:blue;
+}
+
+
+.sign-in {
+  padding: 16px;
+  max-width: 600px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  margin: 10px auto;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+@@media screen and (min-width: 500px) {
+  form{
+    max-width: 500px;
+  }
+
+}
